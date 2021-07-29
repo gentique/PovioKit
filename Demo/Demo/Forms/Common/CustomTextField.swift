@@ -1,6 +1,6 @@
 //
-//  RegaloTextField.swift
-//  Regalo
+//  CustomTextField.swift
+//  Demo
 //
 //  Created by Nejc Vivod on 30/03/2020.
 //  Copyright © 2020 Povio Labs. All rights reserved.
@@ -9,7 +9,7 @@
 import PovioKit
 import UIKit
 
-class RegaloTextField: UITextField {
+class CustomTextField: UITextField {
   private var visibilityButton: UIButton?
   private var padding: UIEdgeInsets = .init(horizontal: 20) { didSet { setNeedsLayout() } }
 
@@ -51,8 +51,8 @@ class RegaloTextField: UITextField {
     .init(x: bounds.width - (rightView === visibilityButton ? 0 : 30) - padding.right, y: bounds.height * 0.5 - 15, width: 30, height: 30)
   }
   
-  static var password: RegaloTextField {
-    let textField = RegaloTextField()
+  static var password: CustomTextField {
+    let textField = CustomTextField()
     textField.placeholder = "placeholder_password".localized()
     textField.autocapitalizationType = .none
     textField.isSecureTextEntry = true
@@ -63,7 +63,7 @@ class RegaloTextField: UITextField {
 
 // MARK: - Private methods
 
-private extension RegaloTextField {
+private extension CustomTextField {
   func setupViews() {
     backgroundColor = .clear
     font = .systemFont(ofSize: 15)
@@ -83,7 +83,7 @@ private extension RegaloTextField {
 
 // MARK: - Actions
 
-private extension RegaloTextField {
+private extension CustomTextField {
   @objc func didTapClearTextButton() {
     text = nil
     _ = delegate?.textField?(self, shouldChangeCharactersIn: NSRange(location: 0, length: text?.count ?? 0), replacementString: "")

@@ -1,6 +1,6 @@
 //
 //  ValidationFormInputRow.swift
-//  Regalo
+//  Demo
 //
 //  Created by Toni Kocjan on 31/08/2020.
 //  Copyright © 2020 Povio Labs. All rights reserved.

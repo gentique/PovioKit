@@ -1,6 +1,6 @@
 //
 //  ValidationFormMultipleRuleInputCell.swift
-//  Regalo
+//  Demo
 //
 //  Created by Toni Kocjan on 02/09/2020.
 //  Copyright © 2020 Povio Labs. All rights reserved.

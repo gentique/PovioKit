@@ -1,6 +1,6 @@
 //
 //  ValidationFormCheckboxCell.swift
-//  Regalo
+//  Demo
 //
 //  Created by Toni Kocjan on 10/09/2020.
 //  Copyright © 2020 Povio Labs. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  ErrorStateTextInputView.swift
-//  Regalo
+//  Demo
 //
 //  Created by Nejc Vivod on 30/03/2020.
 //  Copyright © 2020 Povio Labs. All rights reserved.
@@ -11,7 +11,7 @@ import UIKit
 
 class ErrorStateTextInputView: UIView {
   private let placeholderLabel = UILabel()
-  let textField: RegaloTextField
+  let textField: CustomTextField
   private let errorLabel = UILabel()
   var shortPlaceholder: String? {
     didSet {
@@ -36,7 +36,7 @@ class ErrorStateTextInputView: UIView {
     }
   }
 
-  init(textField: RegaloTextField = .init(), shortPlaceholder: String? = nil) {
+  init(textField: CustomTextField = .init(), shortPlaceholder: String? = nil) {
     self.textField = textField
     self.shortPlaceholder = shortPlaceholder
     super.init(frame: .zero)
@@ -153,7 +153,7 @@ private extension ErrorStateTextInputView {
 
 private extension ErrorStateTextInputView {
   @objc func textFieldDidChange(_ sender: Notification) {
-    guard (sender.object as? RegaloTextField) == textField else { return }
+    guard (sender.object as? CustomTextField) == textField else { return }
     updatePlaceholderState()
   }
 }

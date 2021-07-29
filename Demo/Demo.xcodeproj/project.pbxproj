@@ -12,22 +12,16 @@
 		3716F8B526B2ABD200B19A77 /* PovioKitPromise in Frameworks */ = {isa = PBXBuildFile; productRef = 3716F8B426B2ABD200B19A77 /* PovioKitPromise */; };
 		3716F8B826B2AE5F00B19A77 /* FormsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8B726B2AE5F00B19A77 /* FormsListViewController.swift */; };
 		3716F8C526B2C40F00B19A77 /* ValidationFormMultipleRuleInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8BE26B2C40E00B19A77 /* ValidationFormMultipleRuleInputCell.swift */; };
-		3716F8C626B2C40F00B19A77 /* ValidationFormButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8BF26B2C40E00B19A77 /* ValidationFormButtonCell.swift */; };
-		3716F8C726B2C40F00B19A77 /* ValidationFormLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8C026B2C40E00B19A77 /* ValidationFormLabelCell.swift */; };
 		3716F8C826B2C40F00B19A77 /* ValidationFormSpacingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8C126B2C40F00B19A77 /* ValidationFormSpacingCell.swift */; };
-		3716F8C926B2C40F00B19A77 /* ValidationFormImageAndLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8C226B2C40F00B19A77 /* ValidationFormImageAndLabelCell.swift */; };
 		3716F8CA26B2C40F00B19A77 /* ValidationFormInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8C326B2C40F00B19A77 /* ValidationFormInputCell.swift */; };
 		3716F8CB26B2C40F00B19A77 /* ValidationFormCheckboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8C426B2C40F00B19A77 /* ValidationFormCheckboxCell.swift */; };
 		3716F8CE26B2C4AA00B19A77 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3716F8CD26B2C4AA00B19A77 /* SnapKit */; };
 		3716F8D726B2C51E00B19A77 /* ValidationFormCheckboxRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8D026B2C51E00B19A77 /* ValidationFormCheckboxRow.swift */; };
-		3716F8D826B2C51E00B19A77 /* ValidationFormLabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8D126B2C51E00B19A77 /* ValidationFormLabelRow.swift */; };
 		3716F8D926B2C51E00B19A77 /* ValidationFormSpacingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8D226B2C51E00B19A77 /* ValidationFormSpacingRow.swift */; };
-		3716F8DA26B2C51E00B19A77 /* ValidationFormImageAndLabelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8D326B2C51E00B19A77 /* ValidationFormImageAndLabelRow.swift */; };
 		3716F8DB26B2C51E00B19A77 /* ValidationFormInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8D426B2C51E00B19A77 /* ValidationFormInputRow.swift */; };
-		3716F8DC26B2C51E00B19A77 /* ValidationFormButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8D526B2C51E00B19A77 /* ValidationFormButtonRow.swift */; };
 		3716F8DD26B2C51E00B19A77 /* ValidationFormMultipleRuleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8D626B2C51E00B19A77 /* ValidationFormMultipleRuleRow.swift */; };
 		3716F8E026B2C8F900B19A77 /* ErrorStateTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8DE26B2C8F900B19A77 /* ErrorStateTextInputView.swift */; };
-		3716F8E126B2C8F900B19A77 /* RegaloTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8DF26B2C8F900B19A77 /* RegaloTextField.swift */; };
+		3716F8E126B2C8F900B19A77 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8DF26B2C8F900B19A77 /* CustomTextField.swift */; };
 		3716F8E326B2C9B900B19A77 /* LoginValidationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8E226B2C9B900B19A77 /* LoginValidationForm.swift */; };
 		3716F8E526B2CA7400B19A77 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8E426B2CA7400B19A77 /* FormViewController.swift */; };
 		3716F8E726B2CEBC00B19A77 /* SignUpValidationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3716F8E626B2CEBC00B19A77 /* SignUpValidationForm.swift */; };
@@ -41,21 +35,15 @@
 /* Begin PBXFileReference section */
 		3716F8B726B2AE5F00B19A77 /* FormsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsListViewController.swift; sourceTree = "<group>"; };
 		3716F8BE26B2C40E00B19A77 /* ValidationFormMultipleRuleInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormMultipleRuleInputCell.swift; sourceTree = "<group>"; };
-		3716F8BF26B2C40E00B19A77 /* ValidationFormButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormButtonCell.swift; sourceTree = "<group>"; };
-		3716F8C026B2C40E00B19A77 /* ValidationFormLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormLabelCell.swift; sourceTree = "<group>"; };
 		3716F8C126B2C40F00B19A77 /* ValidationFormSpacingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormSpacingCell.swift; sourceTree = "<group>"; };
-		3716F8C226B2C40F00B19A77 /* ValidationFormImageAndLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormImageAndLabelCell.swift; sourceTree = "<group>"; };
 		3716F8C326B2C40F00B19A77 /* ValidationFormInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormInputCell.swift; sourceTree = "<group>"; };
 		3716F8C426B2C40F00B19A77 /* ValidationFormCheckboxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormCheckboxCell.swift; sourceTree = "<group>"; };
 		3716F8D026B2C51E00B19A77 /* ValidationFormCheckboxRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormCheckboxRow.swift; sourceTree = "<group>"; };
-		3716F8D126B2C51E00B19A77 /* ValidationFormLabelRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormLabelRow.swift; sourceTree = "<group>"; };
 		3716F8D226B2C51E00B19A77 /* ValidationFormSpacingRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormSpacingRow.swift; sourceTree = "<group>"; };
-		3716F8D326B2C51E00B19A77 /* ValidationFormImageAndLabelRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormImageAndLabelRow.swift; sourceTree = "<group>"; };
 		3716F8D426B2C51E00B19A77 /* ValidationFormInputRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormInputRow.swift; sourceTree = "<group>"; };
-		3716F8D526B2C51E00B19A77 /* ValidationFormButtonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormButtonRow.swift; sourceTree = "<group>"; };
 		3716F8D626B2C51E00B19A77 /* ValidationFormMultipleRuleRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFormMultipleRuleRow.swift; sourceTree = "<group>"; };
 		3716F8DE26B2C8F900B19A77 /* ErrorStateTextInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorStateTextInputView.swift; sourceTree = "<group>"; };
-		3716F8DF26B2C8F900B19A77 /* RegaloTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegaloTextField.swift; sourceTree = "<group>"; };
+		3716F8DF26B2C8F900B19A77 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		3716F8E226B2C9B900B19A77 /* LoginValidationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidationForm.swift; sourceTree = "<group>"; };
 		3716F8E426B2CA7400B19A77 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		3716F8E626B2CEBC00B19A77 /* SignUpValidationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpValidationForm.swift; sourceTree = "<group>"; };
@@ -100,9 +88,6 @@
 				3716F8BD26B2C3FF00B19A77 /* Common */,
 				3716F8B726B2AE5F00B19A77 /* FormsListViewController.swift */,
 				3716F8E426B2CA7400B19A77 /* FormViewController.swift */,
-				3716F8DE26B2C8F900B19A77 /* ErrorStateTextInputView.swift */,
-				3716F8DF26B2C8F900B19A77 /* RegaloTextField.swift */,
-				3716F8E826B2CF5500B19A77 /* ValidationStatusTextInputView.swift */,
 			);
 			path = Forms;
 			sourceTree = "<group>";
@@ -110,11 +95,8 @@
 		3716F8BB26B2C3EF00B19A77 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				3716F8BF26B2C40E00B19A77 /* ValidationFormButtonCell.swift */,
 				3716F8C426B2C40F00B19A77 /* ValidationFormCheckboxCell.swift */,
-				3716F8C226B2C40F00B19A77 /* ValidationFormImageAndLabelCell.swift */,
 				3716F8C326B2C40F00B19A77 /* ValidationFormInputCell.swift */,
-				3716F8C026B2C40E00B19A77 /* ValidationFormLabelCell.swift */,
 				3716F8BE26B2C40E00B19A77 /* ValidationFormMultipleRuleInputCell.swift */,
 				3716F8C126B2C40F00B19A77 /* ValidationFormSpacingCell.swift */,
 			);
@@ -133,6 +115,9 @@
 		3716F8BD26B2C3FF00B19A77 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3716F8DE26B2C8F900B19A77 /* ErrorStateTextInputView.swift */,
+				3716F8E826B2CF5500B19A77 /* ValidationStatusTextInputView.swift */,
+				3716F8DF26B2C8F900B19A77 /* CustomTextField.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -140,11 +125,8 @@
 		3716F8CF26B2C50B00B19A77 /* Rows */ = {
 			isa = PBXGroup;
 			children = (
-				3716F8D526B2C51E00B19A77 /* ValidationFormButtonRow.swift */,
 				3716F8D026B2C51E00B19A77 /* ValidationFormCheckboxRow.swift */,
-				3716F8D326B2C51E00B19A77 /* ValidationFormImageAndLabelRow.swift */,
 				3716F8D426B2C51E00B19A77 /* ValidationFormInputRow.swift */,
-				3716F8D126B2C51E00B19A77 /* ValidationFormLabelRow.swift */,
 				3716F8D626B2C51E00B19A77 /* ValidationFormMultipleRuleRow.swift */,
 				3716F8D226B2C51E00B19A77 /* ValidationFormSpacingRow.swift */,
 			);
@@ -262,18 +244,12 @@
 			files = (
 				3716F8E526B2CA7400B19A77 /* FormViewController.swift in Sources */,
 				3716F8B826B2AE5F00B19A77 /* FormsListViewController.swift in Sources */,
-				3716F8C926B2C40F00B19A77 /* ValidationFormImageAndLabelCell.swift in Sources */,
-				3716F8C726B2C40F00B19A77 /* ValidationFormLabelCell.swift in Sources */,
 				3716F8E726B2CEBC00B19A77 /* SignUpValidationForm.swift in Sources */,
-				3716F8E126B2C8F900B19A77 /* RegaloTextField.swift in Sources */,
+				3716F8E126B2C8F900B19A77 /* CustomTextField.swift in Sources */,
 				3716F8CA26B2C40F00B19A77 /* ValidationFormInputCell.swift in Sources */,
 				378164BB26B2AB9C007ABF13 /* RootViewController.swift in Sources */,
-				3716F8D826B2C51E00B19A77 /* ValidationFormLabelRow.swift in Sources */,
-				3716F8DA26B2C51E00B19A77 /* ValidationFormImageAndLabelRow.swift in Sources */,
-				3716F8DC26B2C51E00B19A77 /* ValidationFormButtonRow.swift in Sources */,
 				3716F8E926B2CF5500B19A77 /* ValidationStatusTextInputView.swift in Sources */,
 				378164B726B2AB9C007ABF13 /* AppDelegate.swift in Sources */,
-				3716F8C626B2C40F00B19A77 /* ValidationFormButtonCell.swift in Sources */,
 				3716F8D926B2C51E00B19A77 /* ValidationFormSpacingRow.swift in Sources */,
 				3716F8D726B2C51E00B19A77 /* ValidationFormCheckboxRow.swift in Sources */,
 				3716F8DD26B2C51E00B19A77 /* ValidationFormMultipleRuleRow.swift in Sources */,

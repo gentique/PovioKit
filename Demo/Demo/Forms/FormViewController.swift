@@ -31,7 +31,6 @@ class FormViewController<F: ValidationForm>: UIViewController {
     formView.register(ValidationFormInputCell.self)
     formView.register(ValidationFormSpacingCell.self)
     formView.register(ValidationFormMultipleRuleInputCell.self)
-    formView.register(ValidationFormLabelCell.self)
     formView.register(ValidationFormCheckboxCell.self)
     
     navigationItem.rightBarButtonItem = .init(

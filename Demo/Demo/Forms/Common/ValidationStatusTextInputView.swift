@@ -1,6 +1,6 @@
 //
 //  ValidationStatusTextInputView.swift
-//  Regalo
+//  Demo
 //
 //  Created by Toni Kocjan on 30/07/2020.
 //  Copyright © 2020 Povio Labs. All rights reserved.
@@ -12,7 +12,7 @@ class ValidationStatusTextInputView: UIView {
   private let textInputView: ErrorStateTextInputView
   private let stackView = UIStackView()
   
-  init(textField: RegaloTextField = .init(), shortPlaceholder: String? = nil) {
+  init(textField: CustomTextField = .init(), shortPlaceholder: String? = nil) {
     self.textInputView = .init(textField: textField, shortPlaceholder: shortPlaceholder)
     super.init(frame: .zero)
     setupViews()
